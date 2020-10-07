@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CamScan</string>
+    <string name="text">Detect</string>
+    <string name="tentangApp">Program ini merupakan sebuah aplikasi perangkat android yang dapat digunakan untuk melakukan deteksi objek berupa buah-buahan dengan menggunakan kamera smartphone sehingga dapat membantu konsumen saat memilih buah yang menjadi rekomendasi untuk pencegahan Covid-19 dimasa pandemi ini.</string>
+</resources>

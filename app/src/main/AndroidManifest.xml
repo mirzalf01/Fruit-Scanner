@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.google.firebase.codelab.labelobject">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/appicon"
+        android:label="Fruit Scanner"
+        android:roundIcon="@mipmap/appicon_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".err"
+            android:label="Scan Result"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme2">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.google.firebase.codelab.labelobject.MainActivity" />
+        </activity>
+        <activity
+            android:name=".tentang"
+            android:theme="@style/AppTheme3">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.google.firebase.codelab.labelobject.menu" />
+        </activity>
+        <activity
+            android:name=".menu"
+            android:theme="@style/AppTheme3" />
+        <activity
+            android:name=".splash"
+            android:theme="@style/AppTheme3">
+            <meta-data
+                android:name="com.google.firebase.ml.vision.DEPENDENCIES"
+                android:value="label" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SecondActivity"
+            android:label="Scan Result"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme2">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.google.firebase.codelab.labelobject.MainActivity" />
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.google.firebase.codelab.labelobject.menu" />
+        </activity>
+    </application>
+
+</manifest>
